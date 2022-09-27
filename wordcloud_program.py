@@ -33,9 +33,8 @@ import sys
 
 # _upload()
 
-f = open(r"C:\\Users\\weida\\Desktop\\WordCloud-Project\\scriptfile.txt", encoding="utf-8")
+f = open(r"C:\\Users\\weida\\Desktop\\WordCloud-Project\\scriptfile.txt", encoding="utf-8") # if you read a file that was not created in the same machine, specify the encoding
 file_contents = f.read()
-
 
 def calculate_frequencies(file_contents):
     # Here is a list of punctuations and uninteresting words you can use to process your text
